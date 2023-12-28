@@ -952,7 +952,7 @@ world-settings:
         minimum-demand: 0
         lobotomize:
           enabled: false
-          check-interval: 100
+          check-interval: 300
         display-trade-item: true
         spawn-iron-golem:
           radius: 5
@@ -1188,7 +1188,7 @@ world-settings:
       sculk_shrieker:
         can-summon-default: false
       sign:
-        allow-colors: false
+        allow-colors: true
       slab:
         break-individual-slabs-when-sneaking: false
       spawner:
@@ -1645,7 +1645,7 @@ world-settings:
         phantoms: default
         wandering-traders: default
         village-sieges: default
-        ignore-creative-players: false
+        ignore-creative-players: true
       player:
         netherite-fire-resistance:
           duration: 0
@@ -1665,7 +1665,7 @@ world-settings:
         teleport-if-outside-border: false
         teleport-on-nether-ceiling-damage: false
         totem-of-undying-works-in-inventory: false
-        fix-stuck-in-portal: false
+        fix-stuck-in-portal: true
         one-punch-in-creative: false
         sleep-ignore-nearby-mobs: false
         can-skip-night: true
